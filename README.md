@@ -1,6 +1,6 @@
 # My Flask Docker App
 
-![Logo](https://via.placeholder.com/150)
+![Logo](https://calgarybucket.s3.ca-west-1.amazonaws.com/public_images/hikemoreworryless.jpg)
 
 ## Overview
 A simple Flask application containerized with Docker, demonstrating multiple routes and basic web functionalities.
