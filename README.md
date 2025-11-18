@@ -22,7 +22,7 @@ A simple Flask application containerized with Docker, demonstrating multiple rou
 ### Prerequisites
 - [Python](https://www.python.org/downloads/) installed
 - [Docker](https://www.docker.com/get-started) installed
-- [Docker Desktop] (https://docs.docker.com/desktop/setup/install/windows-install/) installed
+- [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) installed
 
 ### Setup
 - Clone the repository
