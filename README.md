@@ -1,7 +1,4 @@
 # My Flask Docker App
-
-![Logo](https://calgarybucket.s3.ca-west-1.amazonaws.com/public_images/hikemoreworryless.jpg)
-
 ## Overview
 A simple Flask application containerized with Docker, demonstrating multiple routes and basic web functionalities.
 
@@ -24,15 +21,31 @@ A simple Flask application containerized with Docker, demonstrating multiple rou
 - [Docker](https://www.docker.com/get-started) installed
 - [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) installed
 
-### Setup
-- Clone the repository
-git clone https://github.com/SaifKbishi/devops_finalproject
-cd devops_finalproject
-
+### Setup from Github 
 Build and Run the Project:
-In your terminal, navigate to the project directory and run:
+- In your terminal, navigate to the project directory and run:
+- Clone the repository
 ```bash
-    docker-compose up --build
+    git clone https://github.com/SaifKbishi/devops_finalproject
+    cd devops_finalproject
 ```
-    Then in your browser go to [http://127.0.0.1:5008/] (http://127.0.0.1:5008/)
+```bash
+    docker build -t 19820401/finalproject:1.0.1 .
+```
+```bash
+    docker run -d -p 5008:5008 --name finalproject-cntnr0.1 -v finalproject_volume:/app/static 19820401/finalproject:1.0.1
+```
 
+    Then in your browser go to (http://127.0.0.1:5008/)
+
+### Setup from Docker hub 
+Build and Run the Project:
+- In your terminal, navigate to the project directory and run:
+- Pull the image from Docker Hub:
+```bash
+    docker pull 19820401/finalproject:1.0.1
+```
+```bash
+    docker run -d -p 5008:5008 --name finalproject-cntnr0.1 -v finalproject_volume:/app/static 19820401/finalproject:1.0.1
+```
+    Then in your browser go to (http://127.0.0.1:5008/)
