@@ -34,5 +34,5 @@ In your terminal, navigate to the project directory and run:
 ```bash
     docker-compose up --build
 ```
-    Then in your browser go to [http://127.0.0.1:5008/](http://127.0.0.1:5008/)
+    Then in your browser go to [http://127.0.0.1:5008/] (http://127.0.0.1:5008/)
 
