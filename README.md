@@ -1,10 +1,5 @@
 # My Flask Docker App
 
-Github repo link:
-	https://github.com/SaifKbishi/devops_finalproject
-	
-# My Flask Docker App
-
 ![Logo](https://via.placeholder.com/150)
 
 ## Overview
