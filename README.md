@@ -22,10 +22,10 @@ A simple Flask application containerized with Docker, demonstrating multiple rou
 ### Prerequisites
 - [Python](https://www.python.org/downloads/) installed
 - [Docker](https://www.docker.com/get-started) installed
-- [Docker Desktop]
+- [Docker Desktop] (https://docs.docker.com/desktop/setup/install/windows-install/) installed
 
 ### Setup
-# Clone the repository
+- Clone the repository
 git clone https://github.com/SaifKbishi/devops_finalproject
 cd devops_finalproject
 
@@ -34,5 +34,5 @@ In your terminal, navigate to the project directory and run:
 ```bash
     docker-compose up --build
 ```
-    Then in your browser go to http://127.0.0.1:5008/
+    Then in your browser go to [http://127.0.0.1:5008/](http://127.0.0.1:5008/)
 
